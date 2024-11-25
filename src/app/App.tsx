@@ -1,14 +1,14 @@
 import React from "react";
 
-import Profile from "./pages/profile/Profile";
+import Profile from "../pages/profile/Profile";
 
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
+    <div>
       <Profile />
     </div>
   );
-}
+};
 
 export default App;
