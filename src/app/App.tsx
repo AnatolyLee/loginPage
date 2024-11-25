@@ -1,6 +1,6 @@
 import React from "react";
 
-import Profile from "../pages/profile/Profile";
+import Profile from "../features/profile/Profile";
 
 
 const App: React.FC = () => {
