@@ -1,10 +1,11 @@
 import React from "react";
 
+
 const ProfileUser: React.FC = () => {
   return (
     <div className="profile-user">
       <img
-        src="https://via.placeholder.com/80" // Замените на ссылку на аватарку
+        src="https://via.placeholder.com/80"
         alt="Avatar"
         className="profile-avatar"
       />

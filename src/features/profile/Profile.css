@@ -1,49 +1,60 @@
 .profile {
     font-family: Arial, sans-serif;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
   }
   
   .profile-header h1 {
     text-align: center;
-    color: #a50032;
   }
   
   .profile-user {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    justify-content: center;
+    padding: 20px;
   }
   
   .profile-avatar {
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 15px;
   }
   
   .profile-info h2 {
     margin: 0;
-    font-size: 18px;
-  }
-  
-  .profile-info p {
-    margin: 5px 0;
-    color: gray;
+    font-size: 1.5rem;
   }
   
   .profile-menu {
     list-style-type: none;
     padding: 0;
-    margin-top: 20px;
   }
   
   .menu-item {
     padding: 10px;
-    font-size: 16px;
+    font-size: 1.2rem;
     cursor: pointer;
-    border-bottom: 1px solid #ddd;
   }
   
-  .menu-item:hover {
-    background-color: #f0f0f0;
+  .logout-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
   }
+  
+  .profile-footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .footer-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  

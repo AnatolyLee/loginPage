@@ -1,3 +1,5 @@
+import "./Profile.css";
+
 import React from "react";
 
 import ProfileHeader from "./ProfileHeader";
