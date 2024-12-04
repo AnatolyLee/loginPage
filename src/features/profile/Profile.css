@@ -47,25 +47,7 @@
   .menu-item:hover {
     background-color: #f0f0f0;
   }
+
   
-  .profile-footer {
-    margin-top: 40px;
-    text-align: center;
-  }
-  
-  .footer-menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
-  
-  .footer-menu li {
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .footer-menu li:hover {
-    background-color: #f0f0f0;
-  }
+
   

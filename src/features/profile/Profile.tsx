@@ -1,7 +1,8 @@
+import "./Profile.css";
+
 import React from "react";
 
 import ProfileHeader from "./ProfileHeader";
-import ProfileFooter from "./ProfileFooter";
 import ProfileUser from "./ProfileUser";
 import ProfileMenu from "./ProfileMenu";
 
@@ -12,7 +13,6 @@ const Profile: React.FC = () => {
       <ProfileHeader />
       <ProfileUser />
       <ProfileMenu />
-      <ProfileFooter />
     </div>
   );
 };
