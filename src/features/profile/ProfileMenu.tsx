@@ -11,14 +11,14 @@ const ProfileMenu: React.FC = () => {
       <li className="menu-item" onClick={() => console.log("Мой аккаунт clicked")}>
         👤 Мой аккаунт
       </li>
-      <li className="menu-item" onClick={() => console.log("Мои отзывы")}>
+      <li className="menu-item" onClick={() => handleClick("Мои отзывы")}>
         ⭐ Мои отзывы
       </li>
-      <li className="menu-item" onClick={() => console.log("Оставить отзыв о покупке")}>
+      <li className="menu-item" onClick={() => handleClick("Оставить отзыв о покупке")}>
         📝 Оставить отзыв о покупке
       </li>
-      <li className="menu-item" onClick={() => console.log("Поддержка")}>
-        💬 Поддержка
+      <li className="menu-item" onClick={() => handleClick("Поддержка")}>
+      💬 Поддержка
       </li>
     </ul>
   );
