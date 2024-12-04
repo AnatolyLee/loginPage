@@ -1,11 +1,11 @@
 import React from "react";
 
-import Profile from "../features/profile/Profile";
+import Profile from '../features/profile/Profile';
 
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="App">
       <Profile />
     </div>
   );
